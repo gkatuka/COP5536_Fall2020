@@ -3,8 +3,7 @@ JC = javac
 .java.class:
         $(JC) $*.java
 
-CLASSES = encoder.java\
-		 decoder.java
+CLASSES = encoder.java decoder.java
         
         
 
