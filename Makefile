@@ -5,8 +5,6 @@ JC = javac
 
 CLASSES = encoder.java decoder.java
         
-        
-
 default: classes
 
 classes: $(CLASSES:.java=.class)
